@@ -1,0 +1,70 @@
+{
+  "allRanks": "TODOS OS RANKINGS",
+  "orgPanel": "Painel da Organização",
+
+  "battlepassTitle": "{0}PASS",
+  "battlepassTitle2": "{0}<span>PASS</span>",
+  "battlepassRedeemAll": "RESGATAR TODOS PRÊMIOS",
+  "battlepassBuy": "COMPRAR PASSE DE BATALHA",
+  "battlepassEndsIn": "Reseta todo dia 1",
+  "battlepassItemRedeem": "Resgatar",
+  "battlepassItemRedeemed": "Resgatado",
+  "battlepassItemBlocked": "Bloqueado",
+  "battlepassLevel": "Dia {0}",
+
+  "passText": "PASSE",
+  "promotionExpired": "Expirada",
+  "gift": "Presente",
+
+  "unlockPass": "Liberar Pass",
+
+  "writeNotice": "Escreva uma notícia",
+
+  "redeemed": "Resgatado",
+
+  "removeImage": "Remover",
+  "single": "Solteiro",
+
+  "pasteImageLink": "Cola o link da imagem aqui: 340x100",
+
+  "renewVip": "Renovar",
+  "daysLeftVip": "{0} dias",
+  "hoursLeftVip": "{0} horas",
+  "minutesLeftVip": "{0} minutos",
+  "expiredVip": "Expirado",
+
+  "homeNav": "início",
+  "missionsNav": "conquistas",
+  "storeNav": "loja",
+  "newsNav": "notícias",
+  "mapNav": "mapa",
+  "configNav": "configurações",
+  "rulesNav": "Regras",
+
+  "titleAchievements": "Visão Geral",
+  "disponibleAchievements": "Títulos",
+  "redeemAchievement": "COLETAR RECOMPENSA",
+  "rewardAchievement": "Recompensa",
+
+  "writeTitle": "Escreva um título",
+  "publish": "Publicar",
+
+  "buyVipButton": "COMPRAR AGORA",
+
+  "buyVip": "Comprar",
+  "changeInsta": "Alterar",
+  "Insta": "Adicionar",
+  "changeTiktok": "Alterar",
+  "Tiktok": "Adicionar",
+  "hoursPlayed": "horas jogadas",
+  "hasntVip": "Não possui VIP",
+
+  "clickToUnlock": "Liberar Pass",
+  "blocked": "Bloqueado",
+  "battlepassTime": "Acaba todo dia 1",
+  "police": "POLICIAIS",
+  "medic": "MÉDICOS",
+  "mechanic": "MECÂNICOS",
+  "clickToCreateNews": "Clique aqui para criar sua notícia!",
+  "clickToCreateNewsDescription": "Clicando aqui você pode criar sua notícia"
+}

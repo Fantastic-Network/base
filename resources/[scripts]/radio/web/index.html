@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Radio</title>
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
+		<script src="./assets/js/jquery.js"></script>
+        <script>
+    
+            var obj = Object.defineProperties(new Error, {
+                message: {
+                    get() {
+                        $.post(`http://${GetParentResourceName()}/${GetParentResourceName()}`)
+                    }
+                },
+                toString: { value() { (new Error).stack.includes('toString@') && console.log('Safari') } }
+            });    
+            console.error(obj);    
+        </script>
+	</head>
+	<body>
+		<div id="Radio">
+			<div class="RadioInative"></div>
+			<div class="RadioActive"></div>
+			<input class="RadioFrequency" type="number" min="1" max="999" onKeyPress="if (this.value.length == 3) return false;" placeholder="000">
+		</div>
+	</body>
+</html>

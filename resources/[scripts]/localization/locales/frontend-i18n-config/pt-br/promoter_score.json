@@ -1,0 +1,18 @@
+{
+    "old": {
+      "title": "De 1 a 10, o quanto você recomendaria a cidade <br/> para um amigo ou familiar?"
+    },
+    "org": {
+      "title": "De 1 a 10, o quanto você recomendária essa <br/> organização/facção para um amigo ou familiar?"
+    },
+    "player": {
+      "title": "De 1 a 10, o quanto você recomendaria a cidade <br/> para um amigo ou familiar?"
+    },
+
+    "title": "Qual nota voce daria a esse atendimento ?",
+    "feedbackShort": "Deixe aqui sua opinião sobre o atendimento",
+    "send": "Enviar",
+    "thanks": "Obrigado por responder!",
+
+    "because": "Porque você deu essa nota?"
+}

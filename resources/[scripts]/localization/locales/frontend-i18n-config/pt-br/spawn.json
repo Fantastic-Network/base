@@ -1,0 +1,47 @@
+{
+  "welcome": "BEM-VINDO",
+  "player": "JOGADOR",
+  "where_to_spawn": "ONDE DESEJA ACORDAR?",
+  "choose_below": "ESCOLHA ABAIXO",
+
+  "organization": "ORGANIZAÇÃO",
+
+  "game_time": "TEMPO DE JOGO",
+  "choose_one": "ESCOLHA UMA",
+  "location": "LOCALIZAÇÃO",
+  "spawn_location": "DE SPAWN",
+
+  "character_data": "DADOS DO PERSONAGEM",
+  "name": "NOME:",
+  "surname": "SOBRENOME:",
+  "age": "IDADE:",
+
+  "male": "MASCULINO",
+  "female": "FEMININO",
+
+  "creating_character": "CRIANDO...",
+  "confirm_character": "CONFIRMAR",
+
+  "create_your_character": "CRIE SEU PERSONAGEM",
+  "start_your_story": "COMECE SUA HISTÓRIA",
+
+  "welcome_back_to_the_city": "BEM-VINDO DE VOLTA À CIDADE",
+
+  "access_our_menu_f9_and_know_more": "ACESSE NO MENU F9 E CONHEÇA MAIS SOBRE A CIDADE",
+
+  "unlock_this_slot": "DESBLOQUEIE ESTE SLOT",
+
+  "minimum_3_characters": "MÍNIMO 3 CARACTERES",
+  "invalid_name": "NOME INVÁLIDO",
+  "invalid_last_name": "SOBRENOME INVÁLIDO",
+  "minimum_18_years": "MÍNIMO 18 ANOS",
+  "maximum_100_years": "MÁXIMO 100 ANOS",
+
+  "select_a_sex": "SELECIONE UM SEXO",
+
+  "new_character": "NOVO PERSONAGEM",
+  "access_the_vip_store": "ACESSE A LOJA VIP",
+  "create_character": "CRIAR PERSONAGEM",
+
+  "back": "VOLTAR"
+}

@@ -1,0 +1,74 @@
+{
+  "title": {
+    "hotbar": "Hotbar",
+    "main": "Inventário",
+    "trunk": "Porta-malas",
+    "property": "Propriedade",
+    "inspect": "Inspecionar",
+    "shop": "Loja",
+    "ground": "Chão",
+    "chest": "Baú",
+    "preview": "Pré-visualização"
+  },
+
+  "use": "Usar",
+  "send": "Enviar",
+  "delivery": "Entregar",
+  "destroy": "Destruir",
+  "destruct": "Destruir",
+
+  "loading": "Carregando...",
+
+  "utils": [
+    {
+      "button": "CLIQUE DIREITO",
+      "description": "Usar item"
+    },
+    {
+      "button": "SHIFT + CLIQUE DIREITO",
+      "description": "Usar item"
+    },
+    {
+      "button": "SHIFT + CLIQUE DIREITO",
+      "description": "Usar todos itens"
+    },
+    {
+      "button": "BOTÃO ESQUERDO",
+      "description": "Arrastar 1 item"
+    },
+    {
+      "button": "BOTÃO ESQUERDO + SHIFT",
+      "description": "Arrastar todos"
+    },
+    {
+      "button": "1 ao 5",
+      "description": "Atalhos rápidos"
+    }
+  ],
+  "getAll": "PEGAR TUDO",
+  "getIllegal": "PEGAR ILEGAIS",
+
+  "upgradeInventoryTitle": "Dê um upgrade no seu inventário",
+  "upgradeInventoryButton": "AUMENTAR ESPAÇO",
+
+  "noDescription": "Não há informações sobre este item.",
+  "priceDesc": "Preço",
+  "quantityDesc": "Quantidade",
+  "stockDesc": "Estoque",
+  "weightDesc": "Peso",
+  "economyDesc": "Economia",
+  "expiresInDesc": "Expira em",
+  "durabilityDesc": "Durável por",
+  "rechargeDesc": "Recarregável",
+  "nameDesc": "Nome",
+  "passportDesc": "Passaporte",
+  "ageDesc": "Idade",
+  "rolepassDesc": "Rolepass",
+  "keyDesc": "Chave",
+  "phoneDesc": "Telefone",
+  "premiumDesc": "Premium",
+  "suitcaseDesc": "Suitcase",
+
+  "days": "dias",
+  "day": "dia"
+}

@@ -1,0 +1,112 @@
+::-webkit-scrollbar { width: 0; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: transparent; }
+::-webkit-scrollbar-thumb:hover { background: transparent; }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button { -webkit-appearance: none; }
+:focus { outline: 0; }
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+* {
+	overflow: hidden;
+	user-select: none;
+	box-sizing: border-box;
+}
+
+*, body, button, input, textarea {
+	font-family: "Poppins";
+}
+
+.Keyboard-Wrapper {
+	width: 100vw;
+	height: 100vh;
+	display: none;
+}
+
+.Keyboard {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-wrapper {
+	width: 300px;
+	padding: 20px 40px 40px;
+	background: rgba(0, 0 , 0, 0.75);
+	border-radius: 0.5vw;
+}
+
+.body {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	display: flex;
+	font-size: 14px;
+	flex-direction: column;
+}
+
+.body label {
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.body input {
+	color: #333;
+	border: none;
+	padding: 10px;
+	background: white;
+	border-radius: 0.85vh;
+}
+
+.body textarea {
+	color: #333;
+	border: none;
+	resize: none;
+	padding: 10px;
+	height: 100px;
+	background: white;
+	border-radius: 0.85vh;
+}
+
+.footer {
+	display: flex;
+	padding-top: 20px;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn {
+	display: flex;
+  align-items: center;
+	justify-content: center;
+
+	width: 230px;
+  padding: 1.5vh 0vw;
+	margin-top: 10px;
+	background: var(--color-main-500);
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+	color: white;
+  font-weight: 600;
+  font-size: 1.35vh;
+
+	transition: all 0.3s;
+  border-radius: 0.85vh;
+}
+
+.btn:hover {
+	opacity: .75;
+}

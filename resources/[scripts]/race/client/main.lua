@@ -1,0 +1,6 @@
+Tunnel = module("vrp","lib/Tunnel")
+Proxy = module("vrp","lib/Proxy")
+vRP = Proxy.getInterface("vRP")
+vRPS = Tunnel.getInterface("vRP")
+cityName = GetConvar("cityName", "Base")
+Player = GetPlayerServerId(PlayerId())

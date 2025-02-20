@@ -1,0 +1,59 @@
+{
+  "countdown": {
+    "invasion": "INVASION",
+    "event": "EVENT",
+    "starting_in": "STARTING IN "
+  },
+  "form_domination": {
+    "groups_not_selected": "NO GROUPS SELECTED",
+    "area_not_selected": "AREA NOT SELECTED", 
+    "points_invalid": "INVALID POINTS",
+    "players_invalid": "INVALID PLAYERS",
+    "success": "SUCCESS",
+    "groups": "GROUPS",
+    "points": "POINTS",
+    "players": "PLAYERS", 
+    "start_time": "START TIME",
+    "cancel": "CANCEL",
+    "save": "SAVE"
+  },
+  "form_invasion": {
+    "invalid_date": "INVALID DATE",
+    "groups_not_selected": "NO GROUPS SELECTED",
+    "area_not_selected": "AREA NOT SELECTED",
+    "points_invalid": "INVALID POINTS",
+    "players_invalid": "INVALID PLAYERS", 
+    "success": "SUCCESS",
+    "groups": "GROUPS",
+    "genneral": "GENERAL",
+    "points": "POINTS",
+    "players": "PLAYERS",
+    "start_time": "START TIME",
+    "cancel": "CANCEL",
+    "save": "SAVE"
+  },
+  "form_war": {
+    "invalid_date": "INVALID DATE",
+    "groups_not_selected": "NO GROUPS SELECTED",
+    "area_not_selected": "AREA NOT SELECTED",
+    "points_invalid": "INVALID POINTS",
+    "players_invalid": "INVALID PLAYERS",
+    "success": "SUCCESS", 
+    "groups": "GROUPS",
+    "points": "POINTS",
+    "defense_groups": "DEFENSE GROUPS",
+    "attack_groups": "ATTACK GROUPS",
+    "start_time": "START TIME",
+    "end_time": "END TIME",
+    "cancel": "CANCEL",
+    "save": "SAVE"
+  },
+  "spectate": {
+    "spectating": "SPECTATING"
+  },
+  "versus_queue": {
+    "you_are_in_queue": "YOU ARE IN THE 1V1 QUEUE",
+    "your_place_in_queue": "YOUR PLACE IN QUEUE IS",
+    "press_e_to_cancel": "PRESS E TO CANCEL" 
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"headerTitle": "Concessionária",
+	"headerSubtitle": "Veículos",
+	"cars": "Carros",
+	"motorcycles": "Motos",
+	"store": "Loja VIP",
+	"vips": "Veículos com Diamantes 💎",
+	"discount": "VIP ATIVO <b>50% DE DESCONTO</b> EM TODOS OS VEÍCULOS",
+	"testDrive": "Test Drive",
+	"vipTag": "VEÍCULO VIP",
+	"newTag": "NOVOS",
+	"priceTag": "Valor {0}",
+	"decendingTag": "Decrescente",
+	"ascendingTag": "Crescente",
+	"alphabeticalTag": "Ordem Alfabética",
+	"modalTitle": "Confirme sua compra",
+	"modalSubtitle": "Veículo",
+	"modalConfirm": "Confirmar",
+	"modalClose": "Fechar",
+	"modalPrice": "Valor a pagar",
+	"currency": "R$"
+}

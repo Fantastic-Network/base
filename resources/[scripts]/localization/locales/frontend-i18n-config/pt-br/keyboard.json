@@ -1,0 +1,15 @@
+{
+  "kick_of_city": "KICK DA CIDADE",
+  "kick_message": "Mensagem de Kick:",
+  "choose_option": "Escolha uma opção",
+  "cancel": "CANCELAR",
+  "fill_field": "PREENCHER CAMPO",
+  "confirm": "CONFIRMAR",
+
+  "min_bandit": "Mín. Bandido:",
+  "max_bandit": "Máx. Bandido:",
+  "min_police": "Mín. Policial:",
+  "max_police": "Máx. Policial:",
+  "estimated_time": "Estimado:",
+  "weapons_allowed": "Armas Perm:"
+}

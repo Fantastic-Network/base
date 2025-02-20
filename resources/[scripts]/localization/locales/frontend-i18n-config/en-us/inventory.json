@@ -1,0 +1,68 @@
+{
+    "title": {
+        "hotbar": "Hotbar",
+        "main": "Inventory",
+        "trunk": "Trunk",
+        "property": "Property",
+        "inspect": "Inspect",
+        "shop": "Shop",
+        "ground": "Ground",
+        "chest": "Chest",
+        "preview": "Preview"
+    },
+    "use": "Use",
+    "send": "Send",
+    "delivery": "Deliver",
+    "destroy": "Destroy",
+    "destruct": "Destruct",
+    "loading": "Loading...",
+    "utils": [
+     {
+          "button": "RIGHT CLICK",
+          "description": "Use item"
+      },
+      {
+          "button": "SHIFT + RIGHT CLICK",
+          "description": "Use item"
+      },
+      {
+          "button": "SHIFT + RIGHT CLICK",
+          "description": "Use all items"
+      },
+      {
+          "button": "LEFT BUTTON",
+          "description": "Drag 1 item"
+      },
+      {
+          "button": "LEFT BUTTON + SHIFT",
+          "description": "Drag all"
+      },
+      {
+          "button": "1 to 5",
+          "description": "Quick shortcuts"
+    }
+    ],
+    "getAll": "GET ALL",
+    "getIllegal": "GET ILLEGAL",
+    "upgradeInventoryTitle": "Upgrade your inventory",
+    "upgradeInventoryButton": "INCREASE SPACE",
+    "noDescription": "No information available about this item.",
+    "priceDesc": "Price",
+    "quantityDesc": "Quantity",
+    "stockDesc": "Stock",
+    "weightDesc": "Weight",
+    "economyDesc": "Economy",
+    "expiresInDesc": "Expires in",
+    "durabilityDesc": "Durable for",
+    "rechargeDesc": "Rechargeable",
+    "nameDesc": "Name",
+    "passportDesc": "Passport",
+    "ageDesc": "Age",
+    "rolepassDesc": "Rolepass",
+    "keyDesc": "Key",
+    "phoneDesc": "Phone",
+    "premiumDesc": "Premium",
+    "suitcaseDesc": "Suitcase",
+    "days": "days",
+    "day": "day"
+}

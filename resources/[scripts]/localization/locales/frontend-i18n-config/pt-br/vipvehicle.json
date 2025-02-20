@@ -1,0 +1,24 @@
+{
+  "home": {
+    "redeem": {
+      "title": "RESGATAR VEÍCULOS",
+      "button": "RESGATAR AGORA",
+      "select": "Selecione seus veículos",
+      "close": "FECHAR"
+    },
+    "success": {
+      "title": "Obrigado por nos apoiar com sua doação!",
+      "close": "FECHAR"
+    }
+  },
+  "redeem": {
+    "title": "RESGATAR VEÍCULOS",
+    "button": "RESGATAR AGORA",
+    "select": "Selecione seus veículos",
+    "close": "FECHAR"
+  },
+  "success": {
+    "title": "Obrigado por nos apoiar com sua doação!",
+    "close": "FECHAR"
+  }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Wise Roleplay - Elevador</title>
+        <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- ELEVATOR -->
+        <div class="showNui elevatorBody">
+			<div class="elevatorGradientContainer">
+				<div class="elevatorMainContainer">
+					<div class="elevatorHeaderContainer">
+						<span>ELEVADOR</span>
+                        <div class="elevatorLineText"></div>
+					</div>
+					<ul class="elevatorUl" id="elevatorList">
+                        <li>
+                            <div class="elevatorButtonStyle" data-index="${item.name}" onclick="elevatorConfirmButton(event)">
+                                <span class="spanDiv">1</span>
+                                <div class="ledContainer"></div>
+                            </div>
+                        </li>
+					</ul>
+                    <div class="elevatorFooterContainer">
+						<div class="elevatorFooterImgContainer">
+							<img src="images/elevator/elevatorMax.png" class="elevatorImgStyle">
+						</div>
+						<div class="elevatorFooterTextContainer">
+							<span>Capacidade máxima: 500kg</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </body>
+    <script src='script.js'></script>
+</html>

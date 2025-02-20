@@ -1,0 +1,15 @@
+{
+  "kick_of_city": "KICK FROM CITY",
+  "kick_message": "Kick Message:",
+  "choose_option": "Choose an option",
+  "cancel": "CANCEL",
+  "fill_field": "FILL FIELD",
+  "confirm": "CONFIRM",
+
+  "min_bandit": "Min. Bandit:",
+  "max_bandit": "Max. Bandit:", 
+  "min_police": "Min. Police:",
+  "max_police": "Max. Police:",
+  "estimated_time": "Estimated:",
+  "weapons_allowed": "Weapons Allowed:"
+}

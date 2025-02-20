@@ -1,0 +1,5 @@
+---@class WorldGridCell
+---@field x 	number
+---@field y 	number
+---@field index number
+---@field doors Door[]

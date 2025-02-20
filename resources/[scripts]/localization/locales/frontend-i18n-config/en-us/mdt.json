@@ -1,0 +1,165 @@
+{
+    "prisonsAmount": "Prisons Done",
+    "finesAmount": "Fines Issued",
+    "helloLanding": "Hey again, ",
+    "announce": {
+        "title": "Announcement Board",
+        "create": "Create announcement",
+        "modal": {
+            "title": "Create Announcement",
+            "placeholder": "Type the announcement here...",
+            "confirm": "Confirm",
+            "close": "Close"
+        }
+    },
+    "selectOption": "Select an option",
+    "noOccurrencesFound": "No reports found",
+    "editOccurrence": "Edit report",
+    "saveEdit": "Save changes",
+    "loading": "Loading...",
+    "occurrenceNotFound": "Report not found",
+    "description": "Description",
+    "describeOccurrence": "Describe the report",
+    "address": "Address",
+    "tax": "Fee",
+    "model": "Model",
+    "return": "Back",
+    "since": {
+        "years": "{0} years ago",
+        "months": "{0} months ago",
+        "days": "{0} days ago",
+        "hours": "{0} hours ago",
+        "minutes": "{0} minutes ago",
+        "seconds": "{0} seconds ago"
+    },
+    "since2": {
+        "years": "{0} years",
+        "months": "{0} months",
+        "days": "{0} days",
+        "hours": "{0} hours",
+        "minutes": "{0} minutes",
+        "seconds": "{0} seconds"
+    },
+    "search": {
+        "title": "Search for people",
+        "placeholder": "Search by passport...",
+        "status": {
+            "waiting": "Waiting for search...",
+            "searching": "Searching...",
+            "notFound": "No results found"
+        }
+    },
+    "apprehension": {
+        "title": "Make an apprehension",
+        "infos": {
+            "title": "Basic Info",
+            "officer": "Officer",
+            "date": "Date and time",
+            "infractor": "Offender"
+        },
+        "infractions": {
+            "title": "Committed Infractions",
+            "infraction": "Infraction",
+            "finesReduction": "Fine Reduction",
+            "sentenceReduction": "Sentence Reduction"
+        },
+        "description": {
+            "title": "Description",
+            "placeholder": "Type the apprehension description here..."
+        },
+        "submit": "Make apprehension"
+    },
+    "fines": {
+        "title": "Issue a fine",
+        "infos": {
+            "title": "Basic Info",
+            "officer": "Officer",
+            "date": "Date and time",
+            "infractor": "Offender"
+        },
+        "infractions": {
+            "title": "Committed Infractions",
+            "infraction": "Infraction",
+            "finesReduction": "Fine Reduction",
+            "sentenceReduction": "Sentence Reduction",
+            "description": {
+                "title": "Description",
+                "placeholder": "Type the fine description here..."
+            }
+        },
+        "submit": "Issue fine"
+    },
+    "wanteds": {
+        "title": "Individuals",
+        "notFound": "No users are wanted"
+    },
+    "wanted": {
+        "name": "Name",
+        "reason": "Wanted for",
+        "officer": "Officer",
+        "since": "Wanted since"
+    },
+    "wantedProfile": {
+        "title": "Wanted Board",
+        "name": "Name",
+        "notFound": "Wanted not found",
+        "informations": {
+            "title": "Info",
+            "name": "Name",
+            "estate": "Wealth",
+            "wanted": "Wanted",
+            "passport": "Passport",
+            "age": "Age",
+            "hasWeapon": "Gun Permit"
+        },
+        "options": {
+            "history": "History",
+            "vehicles": "Vehicles",
+            "houses": "Houses"
+        },
+        "table": {
+            "type": "TYPE",
+            "date": "DATE",
+            "officer": "OFFICER",
+            "time": "TIME/AMOUNT",
+            "actions": "ACTIONS"
+        },
+        "modal": {
+            "title": "Start Search Warrant",
+            "placeholder": "Type the reason for the warrant here...",
+            "confirm": "Confirm",
+            "close": "Close"
+        }
+    },
+    "report": {
+        "title": "Occurrence Reports",
+        "register": "Register new report",
+        "informations": {
+            "title": "Title",
+            "titlePlaceholder": "Type the report title here...",
+            "officer": "Officer",
+            "date": "Date and time",
+            "infractor": "Offender",
+            "description": "Description",
+            "descriptionPlaceholder": "Type the report description here...",
+            "requester": "Requester",
+            "suspect": "Suspect"
+        },
+        "submit": "Create report"
+    },
+    "occurrance": {
+        "officer": "Officer",
+        "requester": "Requester",
+        "suspect": "Suspect",
+        "status": "Status",
+        "online": "Online",
+        "date": "Date and time"
+    },
+    "currency": "BRL",
+    "locale": "pt-BR",
+    "months": "{0} MONTHS",
+    "yes": "Yes",
+    "no": "No",
+    "age": "{0} years",
+    "back": "Back"
+}

@@ -1,0 +1,46 @@
+{
+  "welcome": "WELCOME",
+  "player": "PLAYER",
+  "where_to_spawn": "WHERE DO YOU WANT TO WAKE UP?",
+  "choose_below": "CHOOSE BELOW",
+
+  "organization": "ORGANIZATION",
+
+  "game_time": "GAME TIME",
+  "choose_one": "CHOOSE ONE",
+  "location": "LOCATION",
+  "spawn_location": "SPAWN",
+
+  "character_data": "CHARACTER DATA",
+  "name": "NAME:",
+  "surname": "SURNAME:",
+  "age": "AGE:",
+
+  "male": "MALE",
+  "female": "FEMALE",
+
+  "creating_character": "CREATING...",
+  "confirm_character": "CONFIRM",
+
+  "create_your_character": "CREATE YOUR CHARACTER",
+  "start_your_story": "START YOUR STORY",
+
+  "welcome_back_to_the_city": "WELCOME BACK TO THE CITY",
+
+  "access_our_menu_f9_and_know_more": "ACCESS OUR MENU F9 AND LEARN MORE ABOUT THE CITY",
+
+  "unlock_this_slot": "UNLOCK THIS SLOT",
+
+  "minimum_3_characters": "MINIMUM 3 CHARACTERS",
+  "invalid_name": "INVALID NAME",
+  "invalid_last_name": "INVALID LAST NAME",
+  "minimum_18_years": "MINIMUM 18 YEARS",
+  "maximum_100_years": "MAXIMUM 100 YEARS",
+  "select_a_sex": "SELECT A GENDER",
+  "create_character": "CREATE CHARACTER",
+
+  "new_character": "NEW CHARACTER",
+  "access_the_vip_store": "ACCESS THE VIP STORE",
+
+  "back": "BACK"
+}

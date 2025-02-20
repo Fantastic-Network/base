@@ -1,0 +1,47 @@
+--AddEventHandler("gameEventTriggered",function(eventName,args)
+--    if eventName ~= "CEventNetworkPlayerEnteredVehicle" then
+--        return
+--    end
+--
+--    if tonumber(args[1]) ~= PlayerId() or not LocalPlayer["state"]["Active"] then
+--        return
+--    end
+--
+--    local Ped = PlayerPedId()
+--    local Veh = GetVehiclePedIsIn(Ped)
+--    while true do
+--        if not IsPedInAnyVehicle(Ped,false) then
+--            break
+--        end
+--        Wait(1000)
+--    end
+--    if LocalPlayer["state"]["InSafeZone"] then
+--        -- TriggerServerEvent("promotion_system/SetPromo")
+--    end
+--end)
+
+--local PlayedPromo = false
+--AddEventHandler("gameEventTriggered",function(eventName,args)
+--    if PlayedPromo then
+--        return
+--    end
+--    if eventName ~= "CEventNetworkPlayerEnteredVehicle" then
+--        return
+--    end
+--    if tonumber(args[1]) ~= PlayerId() or not LocalPlayer["state"]["Active"] then
+--        return
+--    end
+--
+--    local Ped = PlayerPedId()
+--    local Veh = GetVehiclePedIsIn(Ped)
+--    while true do
+--        if not IsPedInAnyVehicle(Ped,false) then
+--            break
+--        end
+--        Wait(2500)
+--    end
+--    if LocalPlayer["state"]["InSafeZone"] then
+--        TriggerServerEvent("promotion_system/SetRandomPromo")
+--        PlayedPromo = true
+--    end
+--end)

@@ -1,0 +1,32 @@
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <title>Weapon Skins</title>
+   <script src="https://kit.fontawesome.com/f1911509d9.js"></script>
+   <script src="nui://game/ui/jquery.js"></script>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div id="actionmenu">
+      <div class="title"><img src="assets/pistol.svg">Mercado de Skin</div>
+      <div class="itens">
+         <div class="categories">
+            <li id="button-category" onclick="benefactor('Pistol')" data-id="Pistol"><img  data-id="Pistol" src="assets/pistol.svg"> <label>Pistolas</label></li>
+            <li id="button-category" onclick="benefactor('Rifle')" data-id="Rifle"><img  data-id="Rifle" src="assets/rifle.svg"><label>Rifles</label></li>
+            <li id="button-category" onclick="benefactor('Possuidas')" data-id="Possuidas"><img  data-id="Possuidas" src="assets/withRifle.svg"><label>Possuidas</label></li>
+         </div>
+         <div id="search">
+            <div class="section_content_search">
+               <input id="myInput" onkeyup="searchFunction()" placeholder="Procurar skin...">
+            </div>
+         </div>
+         <div class="buttons"></div>
+         <div id="pageVehicles"></div>
+      </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+
+</html>

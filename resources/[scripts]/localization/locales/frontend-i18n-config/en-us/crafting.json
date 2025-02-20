@@ -1,0 +1,8 @@
+{
+  "craft": "CRAFT",
+
+  "type": "TYPE",
+  "undefined": "UNDEFINED", 
+  "weight": "WEIGHT",
+  "max": "MAX"
+}

@@ -1,0 +1,6 @@
+[
+    { "id": 1, "label": "Todos", "type": null },
+    { "id": 2, "label": "Carros", "type": "cars" },
+    { "id": 3, "label": "Motos", "type": "bikes" },
+    { "id": 4, "label": "Alugados", "type": "rental" }
+]

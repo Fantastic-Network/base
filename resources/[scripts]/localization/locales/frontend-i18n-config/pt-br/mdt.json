@@ -1,0 +1,178 @@
+{
+  "prisonsAmount": "Prisões Realizadas",
+  "finesAmount": "Multas Realizadas",
+  "helloLanding": "Olá novamente, ",
+
+  "announce": {
+    "title": "Mural de avisos",
+    "create": "Criar anúncio",
+    "modal": {
+      "title": "Criar Anúncio",
+      "placeholder": "Digite o anúncio aqui...",
+      "confirm": "Confirmar",
+      "close": "Fechar"
+    }
+  },
+  "selectOption": "Selecione uma opção",
+
+
+  "noOccurrencesFound": "Nenhum boletim encontrado",
+  "editOccurrence": "Editar boletim",
+  "saveEdit": "Salvar alterações",
+
+  "loading": "Carregando...",
+  "occurrenceNotFound": "Boletim não encontrado",
+
+  "description": "Descrição",
+  "describeOccurrence": "Descreva o boletim",
+
+  "address": "Endereço",
+  "tax": "Taxa",
+  "model": "Modelo",
+  
+  "return": "Voltar",
+
+  "since": {
+    "years": "anos {0} atrás",
+    "months": "meses {0} atrás",
+    "days": "dias {0} atrás",
+    "hours": "horas {0} atrás",
+    "minutes": "minutos {0} atrás",
+    "seconds": "segundos {0} atrás"
+  },
+
+  "since2": {
+    "years": "anos {0}",
+    "months": "meses {0}",
+    "days": "dias {0}",
+    "hours": "horas {0}",
+    "minutes": "minutos {0}",
+    "seconds": "segundos {0}"
+  },
+
+  "search": {
+    "title": "Consultar pessoas",
+    "placeholder": "Pesquisar por passaporte...",
+    "status": {
+      "waiting": "Aguardando pesquisa...",
+      "searching": "Pesquisando...",
+      "notFound": "Nenhum resultado encontrado"
+    }
+  },
+  "apprehension": {
+    "title": "Realizar apreensão",
+    "infos": {
+      "title": "Informações básicas",
+      "officer": "Oficial",
+      "date": "Data e hora",
+      "infractor": "Infrator"
+    },
+    "infractions": {
+      "title": "Infrações cometidas",
+      "infraction": "Infração",
+      "finesReduction": "Redução de Multas",
+      "sentenceReduction": "Redução de Sentença"
+    },
+    "description": {
+      "title": "Descrição",
+      "placeholder": "Digite a descrição da apreensão aqui..."
+    },
+    "submit": "Realizar apreensão"
+  },
+  "fines": {
+    "title": "Realizar multa",
+    "infos": {
+      "title": "Informações básicas",
+      "officer": "Oficial",
+      "date": "Data e hora",
+      "infractor": "Infrator"
+    },
+    "infractions": {
+      "title": "Infrações cometidas",
+      "infraction": "Infração",
+      "finesReduction": "Redução de Multas",
+      "sentenceReduction": "Redução de Sentença",
+      "description": {
+        "title": "Descrição",
+        "placeholder": "Digite a descrição da multa aqui..."
+      }
+    },
+    "submit": "Realizar multa"
+  },
+  "wanteds": {
+    "title": "Indivíduos",
+    "notFound": "Nenhum usuário consta como procurado"
+  },
+  "wanted": {
+    "name": "Nome",
+    "reason": "Procurado por",
+    "officer": "Oficial",
+    "since": "Procurado há"
+  },
+  "wantedProfile": {
+    "title": "Mural de procurados",
+    "name": "Nome",
+    "notFound": "Procurado não encontrado",
+    "informations": {
+      "title": "Informações",
+      "name": "Nome",
+      "estate": "Patrimônio",
+      "wanted": "Procurado",
+      "passport": "Passporte",
+      "age": "Idade",
+      "hasWeapon": "Porte de Armas"
+    },
+    "options": {
+      "history": "Histórico",
+      "vehicles": "Veículos",
+      "houses": "Residências"
+    },
+    "table": {
+      "type": "TIPO",
+      "date": "DATA",
+      "officer": "OFICIAL",
+      "time": "TEMPO/VALOR",
+      "actions": "AÇÕES"
+    },
+    "modal": {
+      "title": "Iniciar procuração",
+      "placeholder": "Digite o motivo da procuração aqui...",
+      "confirm": "Confirmar",
+      "close": "Fechar"
+    }
+  },
+
+  "report": {
+    "title": "Boletins de Ocorrência",
+    "register": "Registrar novo boletim",
+    "informations": {
+      "title": "Título",
+      "titlePlaceholder": "Digite o título do boletim aqui...",
+      "officer": "Oficial",
+      "date": "Data e hora",
+      "infractor": "Infrator",
+      "description": "Descrição",
+      "descriptionPlaceholder": "Digite a descrição do boletim aqui...",
+      "requester": "Requerente",
+      "suspect": "Suspeito"
+    },
+    "submit": "Criar boletim"
+  },
+
+  "occurrance": {
+    "officer": "Oficial",
+    "requester": "Requerente",
+    "suspect": "Suspeito",
+    "status": "Status",
+    "online": "Online",
+    "date": "Data e hora"
+  },
+
+  "currency": "BRL",
+  "locale": "pt-BR",
+  "months": "{0} MESES",
+  "yes": "Sim",
+  "no": "Não",
+  "age": "{0} anos",
+  "back": "Voltar"
+}

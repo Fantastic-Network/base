@@ -1,0 +1,11 @@
+Tunnel = module("vrp","lib/Tunnel")
+Proxy = module("vrp","lib/Proxy")
+vRPC = Tunnel.getInterface("vRP")
+vRP = Proxy.getInterface("vRP")
+
+cityName = GetConvar("cityName","Base")
+vKEYBOARD = Tunnel.getInterface("keyboard")
+
+Server = {}
+Proxy.addInterface('warsystem',Server)
+Tunnel.bindInterface('warsystem',Server)

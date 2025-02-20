@@ -1,0 +1,22 @@
+{
+  "headerTitle": "Dealership",
+  "headerSubtitle": "Vehicles",
+  "cars": "Cars",
+  "motorcycles": "Motorcycles",
+  "store": "VIP Store",
+  "vips": "Vehicles with Diamonds 💎",
+  "discount": "ACTIVE VIP <b>50% DISCOUNT</b> ON ALL VEHICLES",
+  "testDrive": "Test Drive",
+  "vipTag": "VIP VEHICLE",
+  "newTag": "NEW",
+  "priceTag": "Value {0}",
+  "decendingTag": "Descending",
+  "ascendingTag": "Ascending",
+  "alphabeticalTag": "Alphabetical Order",
+  "modalTitle": "Confirm your purchase",
+  "modalSubtitle": "Vehicle",
+  "modalConfirm": "Confirm",
+  "modalClose": "Close",
+  "modalPrice": "Amount to pay",
+  "currency": "R$"
+}

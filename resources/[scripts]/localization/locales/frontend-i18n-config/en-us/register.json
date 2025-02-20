@@ -1,0 +1,69 @@
+{
+  "Card1": {
+      "title": "REGISTRATION",
+      "namePlaceholder": "FULL NAME (REAL LIFE)",
+      "nameInvalid": "Invalid name",
+      "emailPlaceholder": "EMAIL (REAL LIFE)",
+      "emailRequired": "Email required",
+      "whatsappRequired": "WhatsApp required",
+      "birthdayPlaceholder": "Date of Birth",
+      "ageError": "You need to be over 14 years old",
+      "ageError100": "You need to be under 100 years old",
+      "foundUs": "WHERE DID YOU FIND US?",
+      "foundUsRequired": "Required field",
+      "acceptPromos": "I accept to receive notifications and offers from SantaGroup and its partners.",
+      "next": "NEXT >",
+      "whatsappInvalid": "Invalid WhatsApp number."
+  },
+  "Card2": {
+      "title": "DISCORD",
+      "subtitle": "Follow the instructions to connect to Discord",
+      "step1": "1st Step:",
+      "step1Description": "COPY YOUR TOKEN BELOW AND PASTE IT IN THE ROOM",
+      "step1Link": "🔃┋vincular-discord",
+      "ofdiscord": "OF DISCORD",
+      "step2": "2nd Step:",
+      "step2Description": "Join our Discord",
+      "confirm": "AFTER COMPLETING THE STEPS CLICK CONFIRM",
+      "confirmButton": "CONFIRM",
+      "notLinked": "You haven't linked your Discord yet",
+      "sendToken": "Send your token in 🔃┋link-discord"
+  },
+  "Card3": {
+      "title": "REDEEM YOUR VEHICLE",
+      "description": "Select the desired vehicle below",
+      "resgateButton": "REDEEM"
+  },
+  "Whatsapp": {
+      "title": "REGISTRATION",
+      "namePlaceholder": "FULL NAME (REAL LIFE)",
+      "nameInvalid": "Invalid name",
+      "emailPlaceholder": "EMAIL (REAL LIFE)",
+      "emailRequired": "Email required",
+      "whatsappRequired": "WhatsApp required",
+      "birthdayPlaceholder": "Date of Birth",
+      "genderPlaceholder": "GENDER",
+      "ageError": "You need to be over 14 years old",
+      "ageError100": "You need to be under 100 years old",
+      "foundUs": "WHERE DID YOU FIND US?",
+      "foundUsRequired": "Required field",
+      "acceptPromos": "I accept to receive notifications and offers from SantaGroup and its partners.",
+      "finishButton": "FINISH",
+      "whatsappInvalid": "Correctly fill in the WhatsApp number."
+  },
+  "Gender": {
+      "male": "Male",
+      "female": "Female"
+  },
+  "Header": {
+      "step1": "FIRST STEP",
+      "step2": "SECOND STEP",
+      "step3": "THIRD STEP"
+  },
+  "IdFake": {
+      "id": "Your ID"
+  },
+  "IdGeneration": {
+      "token": "YOUR TOKEN"
+  }
+}

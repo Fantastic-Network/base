@@ -1,0 +1,217 @@
+{
+  "banID": "ID do usuário",
+  "banReason": "Motivo do ban",
+
+  "ticketTitle": "Um staff está vindo!",
+  "ticketDesc": "Tente procurar um lugar longe de outras pessoas para ser atendido.",
+  "ticketFooter": "Tempo médio de espera: ",
+  "ticketFooter2": " Não esqueça de avaliar esse chamado na <b>{0}</b> do <b>{0}</b>",
+
+  "cancelCallQuestion": "Deseja cancelar o pedido?",
+  "callFeedback": "Deseja avaliar o atendimento?",
+  "cancelCall": "CANCELAR PEDIDO",
+
+  "cancel": "Cancelar",
+  "confirm": "Confirmar",
+  "specAll": "SPECTAR TODOS",
+
+  "callsAccepted": "Chamados aceitos",
+  "finishedCalls": "Chamados finalizados",
+  "cancelledCalls": "Chamados cancelados",
+
+  "initialDate": "Data inicial",
+  "finalDate": "Data final",
+
+  "back": "Voltar",
+  "next": "Próximo",
+
+  "viewMy": "Ver meu",
+
+  "yes": "SIM",
+  "no": "NÃO",
+
+  "dashboardTitle": "Chamados",
+  "dashboardSubTitle": "ATIVOS AGORA",
+
+  "generalView": "Visão geral",
+
+  "newBeginners": "Novos iniciantes",
+
+  "banned": "Banidos",
+
+  "hired": "Contratados",
+  "activated": "Ativados",
+
+  "retention": "Retenção",
+  "retentionToday": "Retenção hoje",
+  "retentionYesterday": "Retenção ontem",
+
+  "dashboard": "Chamados",
+  "groups": "Grupos",
+  "ranking": "Ranking chamados",
+  "suspect": "Suspeitos",
+  "deaths": "Denuncias RDM",
+  "codesAdmin": "Codiguinhos",
+  "codesWallstreet": "Wallstreet",
+  "lastBuyers": "Últimas compras",
+  "topBuyers": "Top compradores",
+  "rankingCodes": "Codiguinhos",
+  "rankingWallStreet": "WallStreet",
+
+  "howManyPlayersUsedYourCode": "Quantos players usaram seu código",
+  "totalDiamondsGainedByRetention": "Total de diamantes ganhos por retenção",
+  "totalDiamondsGainedByYourRetention": "Total de diamantes ganhos por sua retenção",
+  "howManyPlayersUsedAndPlayed1Day": "Quantos players usaram e jogaram 1 dia, você recebe {0} diamantes por cada um deles.",
+  "howManyPlayersUsedYourCodeAndPlayed1Day": "Quantos players usaram seu código e jogaram 1 dia, você recebe {0} diamantes por cada um deles.",
+  "howManyPlayersUsedYourCodeAndPlayed3Days": "Quantos players usaram seu código e jogaram 3 dias, você recebe {0} diamantes por cada um deles.",
+  "howManyPlayersUsedAndPlayed3Days": "Quantos players usaram e jogaram 3 dias, você recebe {0} diamantes por cada um deles.",
+  "howManyPlayersUsedYourCodeAndPlayed7Days": "Quantos players usaram seu código e jogaram 7 dias, você recebe {0} diamantes por cada um deles.",
+  "howManyPlayersUsedAndPlayed7Days": "Quantos players usaram e jogaram 7 dias, você recebe {0} diamantes por cada um deles.",
+  "howManyPlayersUsedYourCodeAndPlayed30Days": "Quantos players usaram seu código e jogaram 30 dia, você recebe {0} diamantes por cada um deles.",
+  "howManyPlayersUsedAndPlayed30Days": "Quantos players usaram e jogaram 30 dias, você recebe {0} diamantes por cada um deles.",
+  "howManyPlayersUsedYourCodeAndPlayedLast3Days": "Quantos players usaram e jogaram 7 dias, você recebe {0} diamantes por cada um deles.",
+  "howManyPlayersUsedAndPlayedLast3Days": "Quantos players usaram e jogaram os últimos 3 dias, você recebe {0} diamantes por cada um deles.",
+  "howManyPlayersPlayedAtLeast3Days": "Quantos players jogaram pelo menos 3 dias, você recebe {0} diamantes por cada um deles.",
+  "howManyPlayersUsedAndPlayedAtLeast3Days": "Quantos players usaram e jogaram pelo menos 3 dias, você recebe {0} diamantes por cada um deles.",
+  "howManyPlayersPlayedAtLeast7Days": "Quantos players jogaram pelo menos 7 dias, você recebe {0} diamantes por cada um deles.",
+  "howManyPlayersUsedAndPlayedAtLeast7Days": "Quantos players usaram e jogaram pelo menos 7 dias, você recebe {0} diamantes por cada um deles.",
+  "howManyPlayersPlayedAtLeast30Days": "Quantos players jogaram pelo menos 30 dias, você recebe {0} diamantes por cada um deles.",
+  "youReceiveXDiamondsForEachOfThem": "Quantos players jogaram pelo menos 1 dia, você recebe {0} diamantes por cada um deles.",
+  "youReceiveXDiamondsForEachOne": "Quantos players jogaram pelo menos 1 dia, você recebe {0} diamantes por cada um deles.",
+
+  "codeCannotContainSpecialCharacters": "O código não pode conter caracteres especiais",
+
+  "beginnersToday": "Iniciantes hoje",
+  "notStarted": "Não iniciados",
+  "notStartedRetention": "Não iniciado retenção",
+  "started": "Iniciados",
+  "finished": "Finalizados",
+  "completed": "Concluídos",
+  "cancelled": "Cancelados",
+
+  "totalDiamonds": "Total de diamantes",
+
+  "invalidTimeFormat": "Formato de tempo inválido",
+
+  "after1Day": "Após 1 dia",
+  "after3Days": "Após 3 dias",
+  "after7Days": "Após 7 dias",
+  "after30Days": "Após 30 dias",
+
+  "attendedToday": "Atendidos hoje",
+  "pendingCalls": "Chamados pendentes",
+  "finalizedCalls": "Chamados finalizados",
+  "canceledCalls": "Chamados cancelados",
+
+  "averageAttendanceTime": "Tempo médio de atendimento",
+
+  "hours": "Hora",
+  "player": "Jogador",
+  "priority": "Prioridade",
+  "status": "Status",
+
+  "groupsSearch": "nome ou id",
+
+  "statusWaiting": "Em andamento",
+  "statusIn-progress": "Pendente",
+  "statusCancelled": "Cancelado",
+  "statusFinished": "Concluído",
+
+  "PendentCallReport": "Denúncia",
+  "PendentCallQuestion": "Dúvida",
+
+  "name": "Nome",
+  "lastBuy": "Última compra",
+  "topBuyersTitle": "TOP COMPRADORES",
+  "lastBuyersTitle": "ÚLTIMAS COMPRAS",
+  "topBuyersSubTitle": "",
+  "valueBuy": "Valor",
+  "totalBuy": "Total",
+  "accountCreated": "Conta criada",
+
+  "today": "Hoje",
+  "yesterday": "Ontem",
+  "last7Days": "Últimos 7 dias",
+
+  "daysAgo": "dias atrás",
+  "noInformation": "Sem informações",
+
+  "timePlayed": "Tempo jogado",
+
+  "codesTitle": "MEU CODIGO:",
+  "codesSubTitle": "MEUS SEGUIDORES",
+
+  "codesName": "Nome",
+  "codesDate": "Data",
+  "codesTimePlayed": "Tempo jogado",
+  "codesDiamonds": "Diamantes",
+  "codesLastLogin": "Último login",
+
+  "invalidDateFormat": "Data inválida",
+
+  "position": "Posição",
+  "quantity": "Quantidade",
+  "diamonds": "Diamantes",
+
+  "codesQuantity": "Quantidade",
+  "codesRetained": "Retidos",
+  "codesAfter1Day": "Após 1 dia",
+  "codesAfter7Days": "Após 7 dias",
+  "codesAfter30Days": "Após 30 dias",
+  "codesLast3Days": "Últimos 3 dias",
+
+  "groupsTitle": "Grupos ",
+  "groupsSubTitle": "ATIVOS AGORA",
+
+  "tableTitle": "Jogador",
+  "tableActions": "Funções",
+  "tableName": "Grupo",
+  "tableTeleport": "TP",
+  "tableSpec": "Spec",
+
+  "rankingTitle": "Chamados",
+  "rankingSubTitle": "RANKING SEMANAL | Reiniciado todo domingo às 17h",
+  "groupsSearchGroup": "Grupo",
+  "groupsSearchPlayer": "Jogador",
+  "statistics": "Estatísticas",
+
+  "rankingTableName": "Nome",
+  "rankingTableCalls": "Chamados",
+  "rankingTablePoints": "NPS",
+
+  "suspectsTitle": "Suspeitos",
+  "suspectsSubTitle": "ATIVOS AGORA",
+  "suspectsHours": "Horas",
+  "suspectsName": "Nome",
+  "suspectsDiscord": "Discord",
+  "suspectsReason": "Motivo",
+  "suspectsActions": "Spec/TP",
+
+  "deathsTitle": "Denuncias de RDM",
+  "deathsSubTitle": "Log de mortes recentes",
+  "deathsAssasin": "Assassino",
+  "deathsDead": "Morto",
+  "deathsHours": "Horas",
+  "deathsReason": "Motivo",
+  "deathsActions": "Spec/TP",
+
+  "helpTitle": "COMO PODEMOS AJUDAR",
+  "helpInputSearch": "Faça uma pergunta...",
+  "helpInputButton": "PESQUISAR",
+
+  "helpInputButtonQuestion": " STAFF",
+  "helpInputButtonMedic": " MÉDICO",
+  "helpInputButtonMechanic": " MECÂNICO",
+  "helpInputButtonPolice": " POLICIA",
+
+  "helpSubTitle": "NÃO ENCONTROU O QUE PRECISAVA? CHAME ALGUÉM!",
+
+  "newcallTitle": "NOVO CHAMADO",
+  "newcallDescription": "Somente chamados com boas descrições serão atendidos.",
+  "newcallInput": "Clique aqui para detalhar seu pedido.",
+  "newcallButton": "ENVIAR PEDIDO",
+  "newcallCancel": "Cancelar pedido de ajuda",
+
+  "denounceReport": "Denunciar",
+  "denounceTicket": "Chamar staff"
+}

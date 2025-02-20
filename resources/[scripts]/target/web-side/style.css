@@ -1,0 +1,122 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	text-shadow: 1px 1px rgba(0,0,0,0.25);
+	/* background-color: aqua; */
+}
+
+* {
+	overflow: hidden;
+	user-select: none;
+	box-sizing: border-box;
+}
+
+@keyframes target {
+	0% {
+		opacity: 0;
+		transform: scale(0.5);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+.Target {
+	width: 100vw;
+	height: 100vh;
+	display: none;
+	align-items: center;
+	justify-content: center;
+}
+
+.Wrapper {
+	height: 400px;
+	position: absolute;
+	top: calc(50% - 13px);
+	left: calc(50% + 30px);
+}
+
+.Eye {
+	font-size: 2.4vh;
+	transform: all 1s ease-in-out;
+}
+
+@keyframes redColorAnimation {
+  0% {
+    color: #fff;
+  }
+  50% {
+    color: var(--color-main-500);
+  }
+  100% {
+    color: var(--color-main-500);
+  }
+}
+
+.red-color-transition {
+  animation: redColorAnimation 0.5s ease-in-out;
+}
+
+.Label {
+	float: left;
+	letter-spacing: 1px;
+}
+
+.Text {
+	font-size: .6rem;
+	list-style: none;
+	user-select: none;
+	white-space: nowrap;
+	font-family: 'Poppins';
+	font-weight: 500;
+
+	margin-top: .3rem;
+}
+
+.Text:first-child {
+	margin-top: 0;
+}
+
+.Text span {
+	padding: .1rem .5rem;
+	border-radius: 0.25rem;
+	background: rgba(0, 0, 0, 0.50);
+}
+
+.Text div {
+	display: table;
+	margin: 0 0 6px;
+}
+
+/* animation de aparecer as opcoes vindo em cascata de cima*/
+
+@keyframes options {
+	0% {
+		opacity: 0;
+		transform: scale(0.5);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+.black {
+	padding: .1rem .5rem;
+	border-radius: 0.25rem;
+	background: rgba(0, 0, 0, 0.50);
+
+	animation: options 1s ease-in-out;
+}
+
+.Text div:hover {
+	color: #fff;
+	background: rgba(0, 0, 0, 0.60);
+	transform: scale(.95);
+	transform-origin: center;
+	cursor: pointer;
+
+	transition: all 0.2s ease-in-out;
+}

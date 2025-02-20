@@ -1,0 +1,21 @@
+{
+  "select": "SELECIONAR",
+  "room": "SALA",
+
+  "search": "BUSCAR SALA...",
+  "password": "DIGITE A SENHA",
+  "enter": "ENTRAR NA SALA",
+
+  "selectRoom": "SELECIONAR SALA",
+
+  "createRoom": "CRIAR SALA",
+
+  "public": "PÚBLICA",
+  "private": "PRIVADA",
+
+  "create": "CRIAR SALA",
+
+  "currentRoom": "SALA ATUAL",
+
+  "exit": "SAIR"
+}

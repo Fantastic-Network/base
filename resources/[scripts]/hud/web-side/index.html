@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Hud</title>
+		<script src="https://cfx-nui-vrp/web/themes.js"></script>
+		<link rel="stylesheet" href="./assets/css/main.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<!-- link local font -->
+		<link rel="stylesheet" href="./assets/fonts/CeraProMedium.otf" />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.min.js" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+		<script src="./assets/main.js"></script>
+	</head>
+	<body>
+		<div class="hood"></div>
+		<div id="app">
+			<div id="logo-container"></div>
+			<div id="kill-feed"></div>
+			<div id="weapon-container">
+				<div class="radio-area">
+					<div class="identify-area">
+						<p>ID</p>
+						<div class="identify-frame"><p></p></div>
+					</div>
+					<div class="frequency-area">
+						<div class="frequency-frame">OFF</div>
+						<img src="./assets/images/icons/radio.svg" />
+					</div>
+					<div class="microphone-area">
+						<svg style="width: 0.7291666666666667vw; height: 1.25vw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 24">
+							<path
+								id="mic"
+								d="M3.11111 4C3.11111 2.93913 3.52083 1.92172 4.25014 1.17157C4.97945 0.421427 5.9686 0 7 0C8.0314 0 9.02055 0.421427 9.74986 1.17157C10.4792 1.92172 10.8889 2.93913 10.8889 4V12.8C10.8889 13.8609 10.4792 14.8783 9.74986 15.6284C9.02055 16.3786 8.0314 16.8 7 16.8C5.9686 16.8 4.97945 16.3786 4.25014 15.6284C3.52083 14.8783 3.11111 13.8609 3.11111 12.8V4ZM0.777778 10.4C0.984057 10.4 1.18189 10.4843 1.32775 10.6343C1.47361 10.7843 1.55556 10.9878 1.55556 11.2V12.8C1.55556 14.2852 2.12916 15.7096 3.1502 16.7598C4.17123 17.81 5.55604 18.4 7 18.4C8.44396 18.4 9.82877 17.81 10.8498 16.7598C11.8708 15.7096 12.4444 14.2852 12.4444 12.8V11.2C12.4444 10.9878 12.5264 10.7843 12.6722 10.6343C12.8181 10.4843 13.0159 10.4 13.2222 10.4C13.4285 10.4 13.6263 10.4843 13.7722 10.6343C13.9181 10.7843 14 10.9878 14 11.2V12.8C14 14.5711 13.3654 16.2801 12.2175 17.6003C11.0696 18.9205 9.48901 19.7592 7.77778 19.9563V22.4H10.8889C11.0952 22.4 11.293 22.4843 11.4389 22.6343C11.5847 22.7843 11.6667 22.9878 11.6667 23.2C11.6667 23.4122 11.5847 23.6157 11.4389 23.7657C11.293 23.9157 11.0952 24 10.8889 24H3.11111C2.90483 24 2.707 23.9157 2.56114 23.7657C2.41528 23.6157 2.33333 23.4122 2.33333 23.2C2.33333 22.9878 2.41528 22.7843 2.56114 22.6343C2.707 22.4843 2.90483 22.4 3.11111 22.4H6.22222V19.9563C4.51099 19.7592 2.93037 18.9205 1.7825 17.6003C0.634626 16.2801 2.50726e-05 14.5711 0 12.8V11.2C0 10.9878 0.0819441 10.7843 0.227806 10.6343C0.373667 10.4843 0.571498 10.4 0.777778 10.4Z"
+								fill="#FFF"
+							/>
+						</svg>
+						<div class="levels-area">
+							<div class="level-frame three"></div>
+							<div class="level-frame two active-level-frame"></div>
+							<div class="level-frame one active-level-frame"></div>
+						</div>
+					</div>
+				</div>
+				<div id="discord">discord.gg/xxxxx</div>
+				<div class="flex-assault">
+					<div class="assault-frame sul">
+						<img src="./assets/images/weapons/weapon_pistol.png" class="gunSul" />
+						<div class="text-assault-area">
+							<p>HORÁRIO DE</p>
+							<span>AÇÃO SUL</span>
+						</div>
+					</div>
+					<div class="assault-frame norte">
+						<img src="./assets/images/weapons/weapon_assaultrifle.png" class="gunNorte" />
+						<div class="text-assault-area">
+							<p>HORÁRIO DE</p>
+							<span>AÇÃO NORTE</span>
+						</div>
+					</div>
+
+					<div class="assault-frame risk">
+						<img src="./assets/images/icons/warmode.svg" class="gunSul" />
+						<div class="text-assault-area">
+							<p>VOCÊ ESTÁ EM</p>
+							<span>AREA DE RISCO</span>
+						</div>
+					</div>
+				</div>
+				<div id="weapon-infos-container">
+					<div class="safemode">
+						<div class="weapon-area">
+							<div class="weapon-frame">
+								<img id="weapons" src="./assets/images/icons/weapon.svg" />
+							</div>
+							<div class="ammunition-area">
+								<div class="loaded-frame"><span>00</span>0</div>
+								<div class="quantity-frame">000</div>
+								<img src="./assets/images/icons/ammunition.svg" />
+							</div>
+						</div>
+						<div class="safemode-frame">
+							<img src="./assets/images/icons/shield.svg" />
+							<div class="text-safemode-area">
+								<p>VOCÊ ESTÁ EM</p>
+								<span>SAFEMODE</span>
+							</div>
+						</div>
+						<div class="rewards-frame">
+							<div id="reward-title">PRÊMIOS</div>
+							<div class="reward" id="diamond-reward">
+								<div class="reward-bar-wrapper">
+									<div class="reward-bar">
+										<div class="bar-tooltip">2X</div>
+										<img src="./assets/images/icons/diamond.svg" />
+									</div>
+								</div>
+								<div class="ends">03:00</div>
+							</div>
+							<div class="reward" id="gift-reward">
+								<div class="reward-bar-wrapper">
+									<div class="reward-bar">
+										<img src="./assets/images/icons/gift.svg" />
+									</div>
+								</div>
+								<div class="ends">03:00</div>
+							</div>
+							<div class="reward" id="money-reward">
+								<div class="reward-bar-wrapper">
+									<div class="reward-bar">
+										<img src="./assets/images/icons/money.svg" />
+									</div>
+								</div>
+								<div class="ends">03:00</div>
+							</div>
+							<!-- <span>Digite /hidepremios para ocultar</span> -->
+						</div>
+						<div class="gang-war-frame-wrapper">
+							<div class="gang-war-frame">
+								<div class="flex-column">
+									<div class="flex">
+										<img src="./assets/images/icons/warmode.svg" />
+										<div class="flex-column margined">
+											<div class="flex" id="primary-w-data">
+												<p>GROUP A</p>
+												<span class="secondary">150 KILLS</span>
+											</div>
+											<div class="flex" id="secondary-w-data">
+												<p>GROUP B</p>
+												<span class="secondary">150 KILLS</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="safemode-newbie">
+							<div class="safemode-frame">
+								<span>SEJA CONTRATADO PARA SAIR</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="location-container">
+				<div class="location-icon-frame">
+					<img src="./assets/images/icons/location.svg" />
+				</div>
+				<div class="location-frame">
+					<span></span>
+					<p>Localização desconhecida</p>
+				</div>
+				<p class="hour-text-real"></p>
+				<p class="hour-text"></p>
+			</div>
+			<div id="content-middy-container">
+				<div class="progress-area">
+					<svg width="4.531vw" height="4.531vw" viewBox="0 0 87 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<circle cx="40px" cy="40px" r="40px"></circle>
+						<circle id="progress" cx="40px" cy="40px" r="40px"></circle>
+					</svg>
+					<div class="porcent-area">0%</div>
+				</div>
+				<!-- <div class="request-area">
+                <div class="request-frame">
+                    <div class="request-text-frame">
+                        <span>SOLICITAÇÃO</span>
+                        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. </p>
+                    </div>
+                    <div class="buttons-area">
+                        <button>
+                            <img src="./assets/images/icons/confirm.svg" />
+                            (Y) ACEITAR
+                        </button>
+                        <button>
+                            <img src="./assets/images/icons/reject.svg" />
+                            (U) REJEITAR
+                        </button>
+                    </div>
+                </div>
+            </div> -->
+			</div>
+			<div id="bottom-container">
+				<div id="car-container">
+					<div class="speedometer-frame">
+						<svg width="11.406vw" height="9.271vw" viewBox="0 0 219 178" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M25.0313 176C10.607 157.703 2 134.607 2 109.5C2 50.1294 50.1294 2 109.5 2C168.871 2 217 50.1294 217 109.5C217 134.607 208.393 157.703 193.969 176" stroke="white" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round" />
+							<path id="rpm" d="M25.0313 176C10.607 157.703 2 134.607 2 109.5C2 50.1294 50.1294 2 109.5 2C168.871 2 217 50.1294 217 109.5C217 134.607 208.393 157.703 193.969 176" stroke="white" stroke-opacity="0.2" stroke-width="4" stroke-linecap="round" />
+						</svg>
+						<div class="mileage-frame">
+							<p><span>00</span>0</p>
+							<span class="km">KM/H</span>
+						</div>
+						<div class="icons-frame">
+							<img class="belt-icon" src="./assets/images/icons/belt-icon.svg" />
+							<img class="door-icon" src="./assets/images/icons/door-icon.svg" />
+							<img class="engine-icon" src="./assets/images/icons/light.svg" />
+						</div>
+					</div>
+					<div class="fuel-frame">
+						<svg width="1.563vw" height="6.198vw" viewBox="0 0 30 119" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M28.4592 117C11.888 95.9694 2 69.4216 2 40.5632C2 27.0971 4.15303 14.1341 8.13346 2" stroke="white" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round" />
+							<path id="fuel" d="M28.4592 117C11.888 95.9694 2 69.4216 2 40.5632C2 27.0971 4.15303 14.1341 8.13346 2" stroke="white" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round" />
+						</svg>
+						<img src="./assets/images/icons/fuel-icon.svg" />
+					</div>
+					<div class="nitro-frame">
+						<svg width="1.563vw" height="6.198vw" viewBox="0 0 30 119" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1.5408 117C18.112 95.9694 28 69.4216 28 40.5632C28 27.0971 25.847 14.1341 21.8665 2" stroke="white" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round" />
+							<path id="nitro" d="M1.5408 117C18.112 95.9694 28 69.4216 28 40.5632C28 27.0971 25.847 14.1341 21.8665 2" stroke="white" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round" />
+						</svg>
+						<img src="./assets/images/icons/nitro-icon.svg" />
+					</div>
+				</div>
+
+				<div id="vitals-container">
+					<div class="vital-box">
+						<div class="vital-icon health">
+							<img src="./assets/images/icons/heart.svg" />
+						</div>
+						<div class="vital-bar-wrapper health">
+							<div class="vital-bar health"></div>
+						</div>
+					</div>
+					<div class="vital-box vest-box">
+						<div class="vital-icon vest">
+							<img src="./assets/images/icons/vest.svg" />
+						</div>
+						<div class="vital-bar-wrapper vests">
+							<div class="vital-bar-wrapper vest">
+								<div class="vital-bar vest"></div>
+							</div>
+							<div class="vital-bar-wrapper pro-vest">
+								<div class="vital-bar pro-vest"></div>
+							</div>
+						</div>
+					</div>
+					<div class="vital-box hunger-thirst-box">
+						<div class="vital-icon hunger">
+							<img src="./assets/images/icons/hunger.svg" />
+						</div>
+						<div class="hunger-thirst-bar-wrapper hunger">
+							<div class="vital-bar hunger"></div>
+						</div>
+						<div class="vital-icon thirst">
+							<img src="./assets/images/icons/thirst.svg" />
+						</div>
+						<div class="hunger-thirst-bar-wrapper thirst">
+							<div class="vital-bar thirst"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="lottie-anim"></div>
+			<div id="lottie-background"></div>
+			<div id="battlepass-reward">
+				<img id="battlepass-img" src="" />
+				<div class="battlepass-reward-text"></div>
+				<div class="battlepass-level">
+					<div class="level-box colored">1</div>
+					<div class="level-bar colored"></div>
+					<div class="level-box">2</div>
+					<div class="level-bar"></div>
+					<div class="level-box">3</div>
+					<div class="level-bar"></div>
+					<div class="level-box">4</div>
+					<div class="level-bar"></div>
+					<div class="level-box">5</div>
+				</div>
+			</div>
+			<div id="reward-value">
+				<img class="icon" src="./assets/images/icons/diamond.svg" />
+				<span>2000</span>
+			</div>
+			<div id="warn-world">
+				<p>AVISO</p>
+				<span>Você está em mundo solo. Suba suporte imediatamente para regularizar seu personagem!</span>
+			</div>
+			<div id="alert-world">
+				<p>AVISO</p>
+				<span>Você está em mundo solo. Suba suporte imediatamente para regularizar seu personagem!</span>
+			</div>
+			<div id="mic-talking"></div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,209 @@
+::-webkit-scrollbar { display: none; }
+
+body {
+	margin: 0px;
+	color: #ccc;
+	font-size: 11px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+*, body, button, input, select, textarea {
+	font-family: 'Poppins', sans-serif;
+}
+
+:root {
+	font-size: 16px;
+}
+
+@media screen and (max-width: 800px), screen and (max-height: 600px) {
+	:root {
+			font-size: 0.3rem;
+	}
+}
+@media screen and (min-width: 800px) and (min-height: 600px) {
+	:root {
+			font-size: 0.425rem;
+	}
+}
+@media screen and (min-width: 1000px) and (min-height: 700px) {
+	:root {
+			font-size: 0.55rem;
+	}
+}
+@media screen and (min-width: 1100px) and (min-height: 700px) {
+	:root {
+			font-size: 0.6rem;
+	}
+}
+@media screen and (min-width: 1300px) and (min-height: 700px) {
+	:root {
+			font-size: 0.7rem;
+	}
+}
+@media screen and (min-width: 1400px) and (min-height: 700px) {
+	:root {
+			font-size: 0.75rem;
+	}
+}
+@media screen and (min-width: 1600px) and (min-height: 800px) {
+	:root {
+			font-size: 0.8rem;
+	}
+}
+@media screen and (min-width: 1750px) and (min-height: 900px) {
+	:root {
+			font-size: 0.9rem;
+	}
+}
+@media screen and (min-width: 1850px) and (min-height: 1000px) {
+	:root {
+			font-size: 1rem;
+	}
+}
+
+.container {
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	background: linear-gradient(to right, rgba(0,0,0,0.9) 10%, rgba(0,0,0,0) 50%);
+}
+
+.tattoo-container-1 {
+	display: flex;
+	position: relative;
+}
+.tattoo-container-2 {
+	width: 2px;
+	left: -20px;
+	height: 100%;
+	position: absolute;
+	background: var(--color-main-opacity-500);
+}
+
+#tattoo-container {
+	top: 0;
+	left: 0;
+	margin: 0;
+	width: 500px;
+	height: 100%;
+	display: none;
+	position: fixed;
+	max-height: 100%;
+	padding: 9% 0 0 100px;
+}
+
+#tattoo-container.open {
+	opacity: 1;
+	transform: translateX(440px);
+}
+
+#items {
+	height: 40rem;
+	overflow-y: scroll;
+}
+
+.column {
+	width: max-content;
+	float: left;
+}
+
+.title-area {
+	top: -35px;
+	color: #fff;
+	font-size: 16px;
+	position: absolute;
+}
+
+#reset, #submit {
+	float: left;
+	left: -20px;
+	color: var(--color-main-500);
+	font-weight: 600;
+	font-size: 15px;
+	margin-top: 2rem;
+	text-align: center;
+	padding: 1.1rem 3.2rem;
+	border-radius: 4px;
+	position: relative;
+	text-transform: uppercase;
+	background: rgba(0,0,0,0.75);
+	cursor: pointer;
+
+	transition: all 0.1s;
+}
+
+#reset:hover, #submit:hover {
+	opacity: 0.5;
+}
+
+.categories {
+	gap: 1rem;
+	display: flex;
+	overflow: auto;
+	flex-direction: column;
+}
+
+.category {
+	float: left;
+	width: 4.4rem;
+	height: 4.4rem;
+	border-radius: 4px;
+	background: rgba(0,0,0,0.5);
+	cursor: pointer;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.category:hover {
+	background: rgba(0,0,0,0.6);
+}
+
+.category.selected {
+	background: var(--color-main-opacity-100);
+}
+
+.category svg {
+	width: 2.4rem;
+	height: 2.4rem;
+}
+
+.category-items {
+	float: left;
+	width: 100%;
+	margin-left: 40px;
+}
+
+.item {
+	float: left;
+	width: 4rem;
+	height: 4rem;
+	color: #ffff;
+	font-size: 16px;
+	line-height: 63px;
+	border-radius: 4px;
+	text-align: center;
+	margin: 0px 9px 9px 0px;
+	background: rgba(0,0,0,0.8);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+
+	transition: all 0.1s;
+}
+.item:hover {
+	opacity: 0.5;
+}
+.item.selected {
+	background: var(--color-main-500);
+}

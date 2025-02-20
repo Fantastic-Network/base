@@ -1,0 +1,23 @@
+{
+  "search": "Search for a vehicle",
+  "categories": {
+    "all": "All",
+    "cars": "Cars",
+    "bikes": "Bikes",
+    "favorite": "Favorites"
+  },
+  "retire": "Withdraw",
+  "keep": "Store",
+  "statistics": {
+    "chassis": "Chassis",
+    "engine": "Engine",
+    "gas": "Fuel",
+    "body": "Bodywork"
+  },
+  "chest": "Trunk",
+  "fee": "Fee",
+  "feeCurrency": "R$",
+  "vehPayTax": "Pay taxes",
+  "vehSell": "Sell vehicle",
+  "vehTransfer": "Transfer vehicle"
+}

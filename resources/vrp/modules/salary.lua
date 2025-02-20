@@ -1,0 +1,104 @@
+-- -----------------------------------------------------------------------------------------------------------------------------------------
+-- -- SALARY
+-- -----------------------------------------------------------------------------------------------------------------------------------------
+-- local Salary = {}
+-- local SalaryTimer = 1800
+-- -----------------------------------------------------------------------------------------------------------------------------------------
+-- -- SALARY:ADD
+-- -----------------------------------------------------------------------------------------------------------------------------------------
+-- AddEventHandler("Salary:Add",function(Passport,Permission)
+-- 	if not Salary[Permission] then
+-- 		Salary[Permission] = {}
+-- 	end
+
+-- 	if not Salary[Permission][Passport] then
+-- 		Salary[Permission][Passport] = os.time() + SalaryTimer
+-- 	end
+-- end)
+-- -----------------------------------------------------------------------------------------------------------------------------------------
+-- -- SALARY:REMOVE
+-- -----------------------------------------------------------------------------------------------------------------------------------------
+-- AddEventHandler("Salary:Remove",function(Passport,Permission)
+-- 	if Permission then
+-- 		if Salary[Permission] and Salary[Permission][Passport] then
+-- 			Salary[Permission][Passport] = nil
+-- 		end
+-- 	else
+-- 		for Permission,_ in pairs(Salary) do
+-- 			if Salary[Permission][Passport] then
+-- 				Salary[Permission][Passport] = nil
+-- 			end
+-- 		end
+-- 	end
+-- end)
+-- -----------------------------------------------------------------------------------------------------------------------------------------
+-- -- FACVALUE
+-- -----------------------------------------------------------------------------------------------------------------------------------------
+-- local FacValue = {
+-- 	[1] = 6000,
+-- 	[2] = 4000,
+-- 	[3] = 2000
+-- }
+-- -----------------------------------------------------------------------------------------------------------------------------------------
+-- -- THREADSALARY
+-- -----------------------------------------------------------------------------------------------------------------------------------------
+-- CreateThread(function()
+--     while true do
+--         Wait(500)
+
+--         pcall(function()
+--             for Permission,_ in pairs(Salary) do
+--                 pcall(function()
+--                     for Passport,Timer in pairs(Salary[Permission]) do
+--                         if os.time() >= Timer then
+--                             if Permission == "Premium" then
+--                                 if UserPremium[Passport] and UserPremium[Passport][1] then
+--                                     for i=1,#UserPremium[Passport] do
+--                                         local Amount = UserPremium[Passport][i]
+--                                         if Amount then
+--                                             vRP.GiveBank(Passport,Groups["Premium"]["Salary"][Amount])
+--                                         end
+--                                     end
+--                                 end
+--                                 Salary[Permission][Passport] = os.time() + SalaryTimer
+--                             elseif Groups[Permission]["Type"] and Groups[Permission]["Type"] == "Salary" then
+--                                 vRP.GiveBank(Passport,Groups[Permission]["Salary"][1])
+--                                 Salary[Permission][Passport] = os.time() + SalaryTimer
+--                             else
+--                                 local Number = vRP.HasPermission(Passport,Permission)
+--                                 if Number then
+--                                     if Groups[Permission]["Salary"][Number] and Groups[Permission]["Salary"][Number] > 0 then
+--                                         vRP.GiveBank(Passport,Groups[Permission]["Salary"][Number])
+--                                         Salary[Permission][Passport] = os.time() + SalaryTimer
+--                                     end
+        
+--                                     local Level = 0
+--                                     local Consult = vRP.Query("painel/getallVip",{ name = Permission })
+--                                     if Consult[1] and parseInt(Consult[1]["level"]) >= 1 then
+--                                         Level = parseInt(Consult[1]["level"])
+        
+--                                         if FacValue[Level] then
+--                                             vRP.GiveBank(Passport,FacValue[Level])
+--                                             Salary[Permission][Passport] = os.time() + SalaryTimer
+--                                         end
+--                                     end
+--                                 end
+--                             end
+--                         end
+--                     end
+--                 end)
+--             end
+--         end)
+
+--     end
+-- end)
+-- -----------------------------------------------------------------------------------------------------------------------------------------
+-- -- DISCONNECT
+-- -----------------------------------------------------------------------------------------------------------------------------------------
+-- AddEventHandler("Disconnect",function(Passport)
+-- 	for Permission,_ in pairs(Salary) do
+-- 		if Salary[Permission][Passport] then
+-- 			Salary[Permission][Passport] = nil
+-- 		end
+-- 	end
+-- end)

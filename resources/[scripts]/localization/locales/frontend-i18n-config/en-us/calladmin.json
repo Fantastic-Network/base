@@ -1,0 +1,217 @@
+{
+  "banID": "User ID",
+  "banReason": "Ban reason",
+
+  "ticketTitle": "A staff member is on the way!",
+  "ticketDesc": "Try to find a spot away from others to get help.",
+  "ticketFooter": "Average wait time: ",
+  "ticketFooter2": " Don’t forget to rate this ticket on <b>{0}</b> of <b>{0}</b>",
+
+  "cancelCallQuestion": "Do you wanna cancel the request?",
+  "callFeedback": "Wanna rate the service?",
+  "cancelCall": "CANCEL REQUEST",
+
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "specAll": "SPEC ALL",
+
+  "callsAccepted": "Accepted calls",
+  "finishedCalls": "Finished calls",
+  "cancelledCalls": "Cancelled calls",
+  "groupsSearchGroup": "Group",
+  "groupsSearchPlayer": "Player",
+  "statistics": "Statistics",
+
+  "initialDate": "Start date",
+  "finalDate": "End date",
+
+  "back": "Back",
+  "next": "Next",
+
+  "viewMy": "View my",
+
+  "yes": "YES",
+  "no": "NO",
+
+  "dashboardTitle": "Calls",
+  "dashboardSubTitle": "ACTIVE NOW",
+
+  "generalView": "Overview",
+
+  "newBeginners": "Newbies",
+
+  "banned": "Banned",
+
+  "hired": "Hired",
+  "activated": "Activated",
+
+  "retention": "Retention",
+  "retentionToday": "Retention today",
+  "retentionYesterday": "Retention yesterday",
+
+  "codeCannotContainSpecialCharacters": "Code can't have special characters",
+
+  "beginnersToday": "Newbies today",
+  "notStarted": "Not started",
+  "notStartedRetention": "Not started retention",
+  "started": "Started",
+  "finished": "Finished",
+  "completed": "Completed",
+  "cancelled": "Cancelled",
+
+  "totalDiamonds": "Total diamonds",
+
+  "invalidTimeFormat": "Invalid time format",
+
+  "after1Day": "After 1 day",
+  "after3Days": "After 3 days",
+  "after7Days": "After 7 days",
+  "after30Days": "After 30 days",
+
+  "attendedToday": "Attended today",
+  "pendingCalls": "Pending calls",
+  "finalizedCalls": "Finalized calls",
+  "canceledCalls": "Cancelled calls",
+
+  "averageAttendanceTime": "Average service time",
+
+  "hours": "Hour",
+  "player": "Player",
+  "priority": "Priority",
+  "status": "Status",
+
+  "groupsSearch": "name or id",
+
+  "statusWaiting": "In progress",
+  "statusIn-progress": "Pending",
+  "statusCancelled": "Cancelled",
+  "statusFinished": "Completed",
+
+  "PendentCallReport": "Report",
+  "PendentCallQuestion": "Question",
+
+  "name": "Name",
+  "lastBuy": "Last purchase",
+  "topBuyersTitle": "TOP BUYERS",
+  "lastBuyersTitle": "LAST PURCHASES",
+  "topBuyersSubTitle": "",
+  "valueBuy": "Value",
+  "totalBuys": "Total",
+  "accountCreated": "Account created",
+
+  "dashboard": "Calls",
+  "groups": "Groups",
+  "ranking": "Ranking",
+  "suspect": "Suspects",
+  "deaths": "Reports",
+  "codesAdmin": "Codes",
+  "codesWallstreet": "Wallstreet",
+  "lastBuyers": "Last purchases",
+  "topBuyers": "Top buyers",
+  "rankingCodes": "Codes",
+  "rankingWallStreet": "Wallstreet",
+
+  "howManyPlayersUsedYourCode": "How many players used your code",
+  "totalDiamondsGainedByRetention": "Total diamonds gained by retention",
+  "totalDiamondsGainedByYourRetention": "Total diamonds gained by your retention",
+  "howManyPlayersUsedAndPlayed1Day": "How many players used and played for 1 day {0}",
+  "howManyPlayersUsedYourCodeAndPlayed1Day": "How many players used your code and played for 1 day, you receive {0} diamonds for each of them.",
+  "howManyPlayersUsedYourCodeAndPlayed3Days": "How many players used your code and played for 3 days, you receive {0} diamonds for each of them.",
+  "howManyPlayersUsedAndPlayed3Days": "How many players used and played for 3 days {0}",
+  "howManyPlayersUsedYourCodeAndPlayed7Days": "How many players used your code and played for 7 days, you receive {0} diamonds for each of them.",
+  "howManyPlayersUsedAndPlayed7Days": "How many players used and played for 7 days {0}",
+  "howManyPlayersUsedYourCodeAndPlayed30Days": "How many players used your code and played for 30 days, you receive {0} diamonds for each of them.",
+  "howManyPlayersUsedAndPlayed30Days": "How many players used and played for 30 days",
+  "howManyPlayersUsedYourCodeAndPlayedLast3Days": "How many players used your code and played for the last 7 days {0}",
+  "howManyPlayersUsedAndPlayedLast3Days": "How many players used and played for the last 3 days",
+  "howManyPlayersPlayedAtLeast3Days": "How many players played for at least 3 days, you receive {0} diamonds for each of them.",
+  "howManyPlayersUsedAndPlayedAtLeast3Days": "How many players used and played for at least 3 days",
+  "howManyPlayersPlayedAtLeast7Days": "How many players played for at least 7 days, you receive {0} diamonds for each of them.",
+  "howManyPlayersUsedAndPlayedAtLeast7Days": "How many players used and played for at least 7 days",
+  "howManyPlayersPlayedAtLeast30Days": "How many players played for at least 30 days, you receive {0} diamonds for each of them.",
+  "youReceiveXDiamondsForEachOfThem": "How many players played for at least 1 day, you receive {0} diamonds for each of them.",
+  "youReceiveXDiamondsForEachOne": "You receive {0} diamonds for each",
+
+  "today": "Today",
+  "yesterday": "Yesterday",
+  "last7Days": "Last 7 days",
+
+  "daysAgo": "days ago",
+  "noInformation": "No info",
+
+  "timePlayed": "Time played",
+
+  "codesTitle": "MY CODE:",
+  "codesSubTitle": "MY FOLLOWERS",
+
+  "codesName": "Name",
+  "codesDate": "Date",
+  "codesTimePlayed": "Time played",
+  "codesDiamonds": "Diamonds",
+  "codesLastLogin": "Last login",
+
+  "invalidDateFormat": "Invalid date",
+
+  "position": "Position",
+  "quantity": "Quantity",
+  "diamonds": "Diamonds",
+
+  "codesQuantity": "Quantity",
+  "codesRetained": "Retained",
+  "codesAfter1Day": "After 1 day",
+  "codesAfter7Days": "After 7 days",
+  "codesAfter30Days": "After 30 days",
+  "codesLast3Days": "Last 3 days",
+
+  "groupsTitle": "Groups ",
+  "groupsSubTitle": "ACTIVE NOW",
+
+  "tableTitle": "Player",
+  "tableActions": "Actions",
+  "tableName": "Group",
+  "tableTeleport": "TP",
+  "tableSpec": "Spec",
+
+  "rankingTitle": "Ranking",
+  "rankingSubTitle": "WEEKLY RANKING | Reset every Sunday at 5 PM",
+
+  "rankingTableName": "Name",
+  "rankingTableCalls": "Calls",
+  "rankingTablePoints": "NPS",
+
+  "suspectsTitle": "Suspects",
+  "suspectsSubTitle": "ACTIVE NOW",
+  "suspectsHours": "Hours",
+  "suspectsName": "Name",
+  "suspectsDiscord": "Discord",
+  "suspectsReason": "Reason",
+  "suspectsActions": "Spec/TP",
+
+  "deathsTitle": "RDM Reports",
+  "deathsSubTitle": "Recent death log",
+  "deathsAssasin": "Assassin",
+  "deathsDead": "Dead",
+  "deathsHours": "Hours",
+  "deathsReason": "Reason",
+  "deathsActions": "Spec/TP",
+
+  "helpTitle": "HOW CAN WE HELP",
+  "helpInputSearch": "Ask a question...",
+  "helpInputButton": "SEARCH",
+
+  "helpInputButtonQuestion": " STAFF",
+  "helpInputButtonMedic": " MEDIC",
+  "helpInputButtonMechanic": " MECHANIC",
+  "helpInputButtonPolice": " POLICE",
+
+  "helpSubTitle": "DIDN'T FIND WHAT YOU NEEDED? CALL SOMEONE!",
+
+  "newcallTitle": "NEW CALL",
+  "newcallDescription": "Only calls with good descriptions will be answered.",
+  "newcallInput": "Click here to detail your request.",
+  "newcallButton": "SEND REQUEST",
+  "newcallCancel": "Cancel help request",
+
+  "denounceReport": "Report",
+  "denounceTicket": "Call staff"
+}

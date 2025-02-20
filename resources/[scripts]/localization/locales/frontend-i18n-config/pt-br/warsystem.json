@@ -1,0 +1,59 @@
+{
+  "countdown": {
+    "invasion": "INVASÃO",
+    "event": "EVENTO",
+    "starting_in": "INICIANDO EM "
+  },
+  "form_domination": {
+    "groups_not_selected": "NENHUM GRUPO SELECIONADO",
+    "area_not_selected": "ÁREA NÃO SELECIONADA",
+    "points_invalid": "PONTOS INVÁLIDOS",
+    "players_invalid": "JOGADORES INVÁLIDOS",
+    "success": "SUCESSO",
+    "groups": "GRUPO",
+    "points": "PONTOS",
+    "players": "JOGADORES",
+    "start_time": "HORARIO DE INICIO",
+    "cancel": "CANCELAR",
+    "save": "SALVAR"
+  },
+  "form_invasion": {
+    "invalid_date": "DATA INVÁLIDA",
+    "groups_not_selected": "NENHUM GRUPO SELECIONADO",
+    "area_not_selected": "ÁREA NÃO SELECIONADA",
+    "points_invalid": "PONTOS INVÁLIDOS",
+    "players_invalid": "JOGADORES INVÁLIDOS",
+    "success": "SUCESSO",
+    "groups": "GRUPOS",
+    "genneral": "GERAL",
+    "points": "PONTOS",
+    "players": "JOGADORES",
+    "start_time": "HORARIO DE INICIO",
+    "cancel": "CANCELAR",
+    "save": "SALVAR"
+  }, 
+  "form_war": {
+    "invalid_date": "DATA INVÁLIDA",
+    "groups_not_selected": "NENHUM GRUPO SELECIONADO",
+    "area_not_selected": "ÁREA NÃO SELECIONADA",
+    "points_invalid": "PONTOS INVÁLIDOS",
+    "players_invalid": "JOGADORES INVÁLIDOS",
+    "success": "SUCESSO",
+    "groups": "GRUPOS",
+    "points": "PONTOS",
+    "defense_groups": "GRUPOS DE DEFESA",
+    "attack_groups": "GRUPOS DE ATAQUE",
+    "start_time": "HORARIO DE INICIO",
+    "end_time": "HORARIO DE FIM",
+    "cancel": "CANCELAR",
+    "save": "SALVAR"
+  },
+  "spectate": {
+    "spectating": "ESPECTANDO"
+  },
+  "versus_queue": {
+    "you_are_in_queue": "VOCÊ ESTÁ NA FILA DO X1",
+    "your_place_in_queue": "SEU LUGAR NA FILA É",
+    "press_e_to_cancel": "PRESSIONE E PARA CANCELAR"
+  }
+}

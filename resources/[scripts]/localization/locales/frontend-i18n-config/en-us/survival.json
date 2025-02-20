@@ -1,0 +1,23 @@
+{
+  "callMedic": "Call Medic",
+  "cancel": "CANCEL",
+  "confirm": "CONFIRM",
+  "reportPlayer": "Report",
+  "reportPlayerText": "Do you really want to report this player",
+  "reportPlayerText2": "for killing you without reason",
+  "reportPlayerText3": "False reports may result in punishment for you",
+  "youDied": "You died",
+  "by": "by",
+  "playerReported": "Player reported",
+
+  "timeLeft": "TIME LEFT",
+  "timeLeft2": "SECONDS",
+  "timeLeft3": "UNTIL YOU RESPAWN",
+
+  "pressF2": "PRESS F2 TO RELEASE THE MOUSE",
+
+  "chooseLocation": "Choose location",
+
+  "spawnLabelVip": "UNLOCKED IN VIP FAC PREMIUM",
+  "spawnLabelPremium": "UNLOCKED IN VIP SILVER"
+}

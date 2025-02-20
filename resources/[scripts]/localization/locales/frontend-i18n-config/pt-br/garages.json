@@ -1,0 +1,24 @@
+{
+  "search": "Pesquisar um veículo",
+  "categories": {
+    "all": "Todos",
+    "cars": "Carros",
+    "bikes": "Motos",
+    "favorite": "Favoritos"
+  },
+  "retire": "Retirar",
+  "keep": "Guardar",
+
+  "statistics": {
+    "chassis": "Chassis",
+    "engine": "Motor",
+    "gas": "Combustível",
+    "body": "Lataria"
+  },
+  "chest": "Baú",
+  "fee": "Taxa",
+  "feeCurrency": "R$",
+  "vehPayTax": "Pagar taxas",
+  "vehSell": "Vender veículo",
+  "vehTransfer": "Transferir veículo"
+}

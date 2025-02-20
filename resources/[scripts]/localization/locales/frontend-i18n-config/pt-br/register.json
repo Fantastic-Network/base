@@ -1,0 +1,101 @@
+{
+  "Card1": {
+    "title": "CADASTRO",
+    "namePlaceholder": "NOME E SOBRENOME (VIDA REAL)",
+    "nameInvalid": "Nome inválido",
+
+    "emailPlaceholder": "EMAIL (VIDA REAL)",
+    "emailRequired": "Email obrigatório",
+
+    "whatsappRequired": "Whatsapp obrigatório",
+
+    "birthdayPlaceholder": "Data de Nascimento",
+
+    "ageError": "Você precisa ter mais de 14 anos",
+    "ageError100": "Você precisa ter menos de 100 anos",
+
+    "foundUs": "ONDE NOS ENCONTROU?",
+
+    "foundUsRequired": "Campo obrigatório",
+
+    "acceptPromos": "Aceito receber notificações e ofertas de SantaGroup e seus parceiros.",
+
+    "next": "PRÓXIMO >",
+
+    "whatsappInvalid": "Número de WhatsApp inválido."
+  },
+
+  "Card2": {
+    "title": "DISCORD",
+    "subtitle": "Siga as instruções para conectar ao discord",
+    
+    "step1": "1° Passo:",
+    "step1Description": " COPIE SEU TOKEN ABAIXO E COLE NA SALA",
+    "step1Link": "🔃┋vincular-discord",
+    "ofdiscord": "DO DISCORD",
+
+    "step2": "2° Passo:",
+    "step2Description": "Entre em nosso discord",
+
+    "confirm": "APÓS REALIZAR OS PASSOS CLIQUE EM CONFIRMAR",
+
+    "confirmButton": "CONFIRMAR",
+
+    "notLinked": "Você ainda não vinculou seu discord",
+    "sendToken": "Envie seu token em 🔃┋vincular-discord"
+  },
+
+  "Card3": {
+    "title": "RESGATE SEU VEÍCULO",
+    "description": "Selecione o veículo desejado abaixo",
+    "resgateButton": "RESGATAR"
+  },
+
+  "Whatsapp": {
+    "title": "CADASTRO",
+    "namePlaceholder": "NOME E SOBRENOME (VIDA REAL)",
+    "nameInvalid": "Nome inválido",
+
+    "emailPlaceholder": "EMAIL (VIDA REAL)",
+    "emailRequired": "Email obrigatório",
+
+    "whatsappRequired": "Whatsapp obrigatório",
+
+    "birthdayPlaceholder": "Data de Nascimento",
+
+
+    "genderPlaceholder": "GÊNERO",
+
+    "ageError": "Você precisa ter mais de 14 anos",
+    "ageError100": "Você precisa ter menos de 100 anos",
+
+    "foundUs": "ONDE NOS ENCONTROU?",
+
+    "foundUsRequired": "Campo obrigatório",
+
+    "acceptPromos": "Aceito receber notificações e ofertas de SantaGroup e seus parceiros.",
+
+    "finishButton": "FINALIZAR",
+    
+    "whatsappInvalid": "Preencha corretamente o número de WhatsApp."
+  },
+
+  "Gender": {
+    "male": "Masculino",
+    "female": "Feminino"
+  },
+
+  "Header": {
+    "step1": "PRIMEIRO PASSO",
+    "step2": "SEGUNDO PASSO",
+    "step3": "TERCEIRO PASSO"
+  },
+
+  "IdFake": {
+    "id": "Seu ID"
+  },
+
+  "IdGeneration": {
+    "token": "SEU TOKEN"
+  }
+}

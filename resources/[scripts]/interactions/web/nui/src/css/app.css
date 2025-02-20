@@ -1,0 +1,74 @@
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+  /* opacity: 0; */
+}
+
+body{
+  display: none;
+}
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  user-select: none;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+}
+
+.menu {
+  position: absolute;
+  /* top: 50%;
+  right: 30%; */
+  display: flex;
+  padding: 5px;
+  padding-right: 35px;
+  align-items: center;
+  border-radius: 80px;
+  transform: translate(0,-50%);
+  background: var(--color-main-opacity-600);
+  border: 3px solid rgba(255, 255, 255, 0.04);
+}
+
+.menu .key {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  font-weight: bold;
+  align-items: center;
+  border-radius: 100%;
+  justify-content: center;
+  text-transform: uppercase;
+  background: #ffffff05;
+  border: 1px solid #ffffff05;
+}
+
+.menu .info {
+  display: flex;
+  color: rgb(252, 252, 252);
+  margin-left: 10px;
+  line-height: 11px;
+  font-weight: bold;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.menu .info small {
+  opacity: .5;
+  font-size: 11px;
+  letter-spacing: 1.2px;
+}
+
+.menu .info p {
+  margin-top: 2px;
+  font-weight: 700;
+  font-size: 14px;
+}

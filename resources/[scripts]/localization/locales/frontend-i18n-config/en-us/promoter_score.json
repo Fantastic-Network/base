@@ -1,0 +1,16 @@
+{
+    "old": {
+        "title": "On a scale of 1 to 10, how much would you recommend the city <br/> to a friend or family member?"
+    },
+    "org": {
+        "title": "On a scale of 1 to 10, how much would you recommend this <br/> organization/faction to a friend or family member?"
+    },
+    "player": {
+        "title": "On a scale of 1 to 10, how much would you recommend the city <br/> to a friend or family member?"
+    },
+    "title": "What rating would you give this service?",
+    "feedbackShort": "Leave your thoughts about the service here",
+    "send": "Send",
+    "thanks": "Thanks for answering!",
+    "because": "Why did you give this rating?"
+}

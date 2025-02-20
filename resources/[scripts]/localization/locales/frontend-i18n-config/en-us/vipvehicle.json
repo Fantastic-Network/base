@@ -1,0 +1,25 @@
+{
+  "home": {
+    "redeem": {
+      "title": "REDEEM VEHICLES",
+      "button": "REDEEM NOW",
+      "select": "Select your vehicles",
+      "close": "CLOSE"
+    },
+    "success": {
+      "title": "Thank you for supporting us with your donation!",
+      "close": "CLOSE"
+    }
+  },
+  
+  "redeem": {
+    "title": "REDEEM VEHICLES",
+    "button": "REDEEM NOW",
+    "select": "Select your vehicles",
+    "close": "CLOSE"
+  },
+  "success": {
+    "title": "Thank you for supporting us with your donation!",
+    "close": "CLOSE"
+  }
+}

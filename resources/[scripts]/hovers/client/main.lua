@@ -1,0 +1,10 @@
+Tunnel = module("vrp","lib/Tunnel")
+Proxy = module("vrp","lib/Proxy")
+vRPS = Tunnel.getInterface("vRP")
+vRP = Proxy.getInterface("vRP")
+cityName = GetConvar("cityName", "Base")
+
+RegisterNUICallback("getCityName",function(Data,Callback)
+  cityName = GetConvar("cityName", "Base")
+  Callback(string.lower(cityName))
+end)

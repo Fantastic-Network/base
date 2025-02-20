@@ -1,0 +1,92 @@
+-- Player = GetPlayerServerId(PlayerId())
+-- SafeMode = GetConvar("SafeMode", "")
+
+-- function WarModeSafeZone(Zone)
+--     if not GlobalState["SafeZone"] then
+--         return
+--     end
+--     local Ped = PlayerPedId()
+--     local Count = 0
+--     TriggerEvent("Progress","Modo Guerra",3000)
+--     SafeWarmode = true
+--     CreateThread(function()
+--         while SafeWarmode do
+--             local Coords = GetEntityCoords(Ped)
+--             if Zone:isPointInside(Coords) then
+--                 if Entity(Ped)["state"]["WarMode"] then
+--                     Count = Count + 1
+--                     if Count >= 8 then
+--                         if SafeMode == "true" then
+--                             Entity(Ped)["state"]:set("WarMode",false,true)
+--                             LocalPlayer["state"]:set("GreenMode",true,true)
+--                             LocalPlayer["state"]:set("WarMode",false,true)
+--                         end
+--                         TriggerEvent("Notify","verde","Você saiu do modo de guerra.",5000,"MODO DE GUERRA")
+--                         -- TriggerEvent("Notify2","#leaveWarMode")
+--                         if GlobalState["WarModeBucket"] then
+--                             Wait(500)
+--                             TriggerServerEvent("Safe:Bucket",1)
+--                         end
+--                         Count = 0
+--                     end
+--                 end
+--             else
+--                 Count = 0
+--                 SafeWarmode = false
+--                 TriggerEvent("Progress","Cancelando",5)
+--                 break
+--             end
+--             Wait(500)
+--         end
+--     end)
+-- end
+
+-- CreateThread(function()
+--     if not GlobalState["SafeZone"] then
+--         return
+--     end
+--     while true do
+--         local Idle = 5000
+--         if GlobalState["WarMode"] then
+--             Idle = 1
+--             SetWeaponDamageModifierThisFrame(-1553120962,0.0)
+--         end
+--         Wait(Idle)
+--     end
+-- end)
+
+-- AddStateBagChangeHandler('Active',('player:%s'):format(Player) , function(_, _, Value)
+--     local Ped = PlayerPedId()
+--     if not GlobalState["SafeZone"] then
+--         return
+--     end
+--     if LocalPlayer["state"]["Route"] >= 900000 then
+--         return
+--     end
+--     if SafeMode == "true" then
+--         if Value and GlobalState["WarMode"] then
+--             LocalPlayer["state"]:set("GreenMode",true,true)
+--             CreateThread(function()
+--                 while true do
+--                     local Idle = 1000
+--                     if not Entity(Ped)["state"]["WarMode"] then
+--                         Idle = 1
+--                         LocalPlayer["state"]["Invincible"] = true
+--                         SetEntityInvincible(Ped,true)
+--                         TriggerEvent("inventory:CleanWeapons")
+--                         SetLocalPlayerAsGhost(true)
+--                         SetGhostedEntityAlpha(254)
+--                     else
+--                         if not LocalPlayer["state"]["InSafeZone"] then
+--                             DisablePlayerFiring(Ped,false)
+--                             SetEntityInvincible(Ped,false)
+--                             LocalPlayer["state"]["Invincible"] = false
+--                             SetLocalPlayerAsGhost(false)
+--                         end
+--                     end
+--                     Wait(Idle)
+--                 end
+--             end)
+--         end
+--     end
+-- end)
